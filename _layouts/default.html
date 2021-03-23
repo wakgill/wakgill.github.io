@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+html {
+	font-family: sans-serif;
+	color: #080808;
+}
+
+body {
+	max-width: 920px;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+}
+
+blockquote {
+	background-color: #eee;
+	border-left: 3px solid #444;
+	margin: 1rem -1rem 1rem calc(-1rem - 3px);
+	padding: 1rem;
+}
+
+ul {
+	margin-left: 0;
+	padding: 0;
+}
+
+li {
+	padding: 0;
+}
+
+li:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+a {
+	position: relative;
+}
+
+a:before {
+	content: '⇒';
+	color: #999;
+	text-decoration: none;
+	font-weight: bold;
+	position: absolute;
+	left: -1.25rem;
+}
+
+pre {
+	background-color: #eee;
+	margin: 0 -1rem;
+	padding: 1rem;
+	overflow-x: auto;
+}
+
+details:not([open]) summary,
+details:not([open]) summary a {
+	color: gray;
+}
+
+details summary a:before {
+	display: none;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+dl dt:not(:first-child) {
+	margin-top: 0.5rem;
+}
+
+@media(prefers-color-scheme:dark) {
+	html {
+		background-color: #111;
+		color: #eee;
+	}
+
+	blockquote {
+		background-color: #000;
+	}
+
+	pre {
+		background-color: #222;
+	}
+	
+	a {
+		color: #0087BD;
+	}
+
+	a:visited {
+		color: #333399;
+	}
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+input {
+	display: block;
+	border: 1px solid #888;
+	padding: .375rem;
+	line-height: 1.25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	width: 100%;
+}
+
+input:focus {
+	outline: 0;
+	border-color: #80bdff;
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+</style>
+
+<article>
+  
+  {{ content }}
+	
+</article>
