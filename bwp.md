@@ -3,6 +3,8 @@ layout: page
 title: Banned words and phrases
 ---
 
+# Banned words and phrases
+
 - "X is the future of Y..."
 - "I am often asked," "People are always asking me about...," etc.
 - pretty (i.e, "that is pretty cool")
