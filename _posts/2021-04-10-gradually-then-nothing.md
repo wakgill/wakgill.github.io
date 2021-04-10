@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gradually, then nothing
+collection: yes
 ---
 
 # Gradually, then nothing
