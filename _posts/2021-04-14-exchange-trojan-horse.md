@@ -4,6 +4,8 @@ title: Bitcoin Exchange Trojan Horse
 width: 600px
 ---
 
+# Bitcoin Exchange Trojan Horse
+
 Make no mistake, this is not the digital cash that Cypherpunks
 espouse. This gives the credit agencies and the government (the two
 work hand in hand) complete traceability of all purchases, automatic
