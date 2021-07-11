@@ -16,7 +16,7 @@ layout: default
          </span>{% elsif document.layout == "link" %} <span class="title">   <a href="{{ document.link | relative_url }}"> {{ document.title }} | {{ document.site }} </a>→
          </span> 
          
-{% else %} <span class="title">   <a href="{{ document.url | relative_url }}">{{ document.date | date: "%H:%M:%S" }}   </a>
+{% else %} <span class="title">   <a href="{{ document.url | relative_url }}">{{ document.date | date: "%Y/%m/%d" }}   </a>
          </span>  {% if document.sub == 'yes' %} (subdirectory) {% endif %} {% endif %}
        
        
